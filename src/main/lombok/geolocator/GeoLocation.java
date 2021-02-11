@@ -1,7 +1,9 @@
 package geolocator;
 
-@lombok.Data
-public class GeoLocation {
+import lombok.Data;
+
+@Data
+class GeoLocation {
 
     private String as;
     private String city;
